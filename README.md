@@ -20,11 +20,14 @@ This program integrates primer3 and OligoCalc functions to pick candidate primer
 * Make sure Rscript.exe is in your system path
 * Run the program by typing “Rscript primerfinder.R .\input\SCGB1A1.txt”
 * The output will be saved in a “uidxxx” folder in output directory containing the following files
-** primer3.in.txt: the input file to primer3
-** primers.1.all.txt: all primer candidates picked by primer3
-** primers.2.validending.txt: all primer candidates with valid ending
-** primers.3.pairs.txt: all primer pairs
-** primers.4.final.txt: valid primer pairs
+
+| File | Description |
+| --- | --- |
+| primer3.in.txt | the generated input file for primer3 |
+| primers.1.all.txt | all primer candidates returned by primer3 |
+| primers.2.validending.txt | all primer candidates with valid ending |
+| primers.3.pairs.txt | all primer pairs |
+| primers.4.final.txt | valid primer pairs |
 
 ## Notes
 
