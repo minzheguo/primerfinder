@@ -15,7 +15,7 @@ This program integrates primer3 and OligoCalc functions to pick candidate primer
 
 * Download the entire "primerfinder" project to local machine. Creat a folder named "primer3" under the project folder. Unzip the "primer3.zip" file and place all primer3 files directly under the primer3 folder. 
 * Open Windows command line
-* Go to the “primerfinder” folder
+* Go to the project folder
 * Save nucleotide sequence in a file in the input folder, such as “.\input\SCGB1A1.txt”
 * Make sure Rscript.exe is in your system path
 * Run the program by typing “Rscript primerfinder.R .\input\SCGB1A1.txt”
