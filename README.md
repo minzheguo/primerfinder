@@ -19,7 +19,9 @@ This program integrates primer3 and OligoCalc functions to pick candidate primer
 * Save nucleotide sequence in a file in the input folder, such as “.\input\SCGB1A1.txt”
 * Make sure Rscript.exe is in your system path
 * Run the program by typing “Rscript primerfinder.R .\input\SCGB1A1.txt”
-* The output will be saved in a “uidxxx” folder in output directory containing the following files
+* The output will be saved in a “uidxxx” folder in output directory
+
+## Output files
 
 | File | Description |
 | --- | --- |
